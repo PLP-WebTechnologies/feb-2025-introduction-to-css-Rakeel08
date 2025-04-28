@@ -4,30 +4,42 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #bd3838;
+    background-color: #f9f9f9;
     color: #333;
 }
 
 /* Header styling */
 .title {
     text-align: center;
-    color: #22cfbb;
+    color: #2a9d8f;
     margin: 20px 0;
+    font-size: 2.5em;
 }
 
-/* Paragraph styling */
+/* About Us section */
 #about-text {
     margin: 20px;
-    padding: 10px;
-    border: 1px solid #a51e1e;
+    padding: 15px;
+    border: 1px solid #ccc;
     background-color: #e9f5f2;
+    border-radius: 5px;
 }
 
-/* Image styling */
+/* Services list */
+ul {
+    list-style-type: square;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Mascot image styling */
 .mascot-image {
     display: block;
     margin: 20px auto;
-    border: 5px solid #169c8d;
+    border: 5px solid #2a9d8f;
     border-radius: 10px;
     max-width: 100%;
 }
@@ -37,6 +49,7 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: #07332e;
+    background-color: #2a9d8f;
     color: white;
+    font-size: 1em;
 }
